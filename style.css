@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+}
+
+#homeimg img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+.search {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#search_box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  height: 35px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+li {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navleft {
+  float: left;
+  padding: 20px;
+}
+
+.navright {
+  float: right;
+  padding: 20px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+.footleft {
+  float: left;
+}
+
+.footright {
+  float: right;
+}
